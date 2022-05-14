@@ -145,9 +145,14 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .contacts .item {
     color: var(--second-text-color);
+    display: flex;
+    align-items: center;
 }
 
-
+.header-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
 /* Styles for hero */
 
 .hero {
