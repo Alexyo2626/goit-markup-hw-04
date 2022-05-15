@@ -34,8 +34,22 @@
           </ul>
         </nav>
         <ul class="contacts list">
-          <li><a class="item link" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="item link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a class="item link" href="mailto:info@example.com">
+              <svg class="header-icon" width="16" height="12">
+                <use href="./images/sprite.svg#envelope"></use>
+              </svg>
+              info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="item link" href="tel:+380991111111">
+              <svg class="header-icon" width="10" height="16">
+                <use href="./images/sprite.svg#smartphone"></use>
+              </svg>
+              +38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -185,15 +199,76 @@
     <!---------------------------- Footer----------------------------------->
 
     <footer class="bottom">
-      <div class="container">
-        <a class="logo link" href="">Web<span class="logo-white">Studio</span></a>
-        <address class="address">
-          <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
-          <ul class="list">
-            <li><a class="link" href="mailto:info@example.com">info@example.com</a><br /></li>
-            <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+      <div class="container wrap-footer">
+        <div class="container-footer">
+          <a class="logo link" href="">Web<span class="logo-white">Studio</span></a>
+          <address class="address">
+            <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="list">
+              <li class="item">
+                <a class="link" href="mailto:info@example.com">info@example.com</a><br />
+              </li>
+              <li class="item"><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="join">
+          <h3 class="text">присоединяйтесь</h3>
+          <ul class="socials list">
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка Instagram"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка Twitter"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка Facebook"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка Linkedin"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
