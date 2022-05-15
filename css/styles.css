@@ -238,7 +238,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 .icon-container {
-    padding: 25px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 120px;
     background-color: var(--bg-color-cards);
     margin-bottom: 30px;
     border-radius: 4px;
@@ -379,13 +383,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 .customers .item {
-
-    border: 1px solid var(--color-icons);
-    border-radius: 4px;
     width: 170px;
     height: 92px;
-   
-    color: var(--color-icons);
 }
 
 .customers .item:not(:last-child) {
@@ -400,6 +399,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
     align-items: center;
     justify-content: center;
 
+    border: 1px solid var(--color-icons);
+    border-radius: 4px;
     color: var(--color-icons);
 }
 
@@ -407,14 +408,10 @@ h1,h2,h3,h4,h5,h6,p,ul {
     fill: currentColor;
 }
 
-.customers .item:hover,
-.customers .item:focus {
-    border-color: var(--accent-color);
-}
-
 .customers .link:hover,
 .customers .link:focus {
     color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 /* Styles for footer */
@@ -552,8 +549,12 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 }
 
-.portfolio-group .item:hover,
-.portfolio-group .item:focus {
+.portfolio-group .link {
+    display: block;
+}
+
+.portfolio-group .link:hover,
+.portfolio-group .link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
