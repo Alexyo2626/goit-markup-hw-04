@@ -12,6 +12,8 @@
     --hero-btn-color: #FFFFFF;
     --text-btn-color-hover: #FFFFFF;
     --accent-color: #2196F3;
+
+    --color-socials-icons: #AFB1B8;
 }
 
 
@@ -325,10 +327,41 @@ h1,h2,h3,h4,h5,h6,p,ul {
     font-size: 16px;
     text-align: center;
     line-height: 1.19;
+
+    margin-bottom: 16px;
 }
 
 .team .subtext {
     padding: 30px 15px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--color-socials-icons);
+}
+
+.socials-icon {
+    fill: currentColor;
+}
+
+.socials-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.socials-link:hover {
+    color: var(--text-btn-color-hover);
+    background-color: var(--accent-color);
 }
 
 /* Styles for footer */
